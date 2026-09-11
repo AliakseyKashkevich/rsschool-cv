@@ -1,3 +1,5 @@
+![avatar](avatar.png)
+
 # Aliaksei Kashkevich
 
 ## Junior Full-Stack Developer 
