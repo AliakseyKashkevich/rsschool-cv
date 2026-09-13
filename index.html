@@ -1,14 +1,101 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>New html</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-    <h1>New html</h1>
-
-</body>
+    <title>Aliaksei Kashkevich</title>
+    <link rel="stylesheet" href="styles/style.css">
+  </head>
+  <body class="body">
+    <header>
+      <nav>
+        <ul class="navigation">
+          <li>
+            <a class="navigation-button" href="#About-me">About me</a>
+          </li>
+          <li>
+            <a class="navigation-button" href="#Courses">Courses</a>
+          </li>
+          <li>
+            <a class="navigation-button" href="#Code-example">Code example</a>
+          </li>
+          <li>
+            <a class="navigation-button" href="#Languages">Languages</a>
+          </li>
+          <li>
+            <a class="navigation-button" href="#Contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img
+        class="image-style"
+        src="images/avatar.png"
+        width="300"
+        height="300"
+        alt="Avatar"
+      >
+      <h1 class="header-style">Aliaksei Kashkevich</h1>
+      <h2 class="header-style">Junior Full-Stack Developer</h2>
+      <section id="About-me">
+        <h2 class="header-style">About me</h2>
+        <p class="text-style">
+          Detail-oriented, problem-solving team player with a QA background. I
+          understand user behavior and write clean code.
+        </p>
+      </section>
+      <section id="Courses">
+        <h2 class="header-style">Courses</h2>
+        <a href="https://rs.school">RS.School</a>
+      </section>
+      <section id="Code-example">
+        <h2 class="header-style">Code example</h2>
+        <pre class="code-wrapper">
+            <code>function sum(a, b) {
+                return a + b;
+            }
+            console.log(sum(5, 10)); // 15
+            </code>
+        </pre>
+      </section>
+      <section id="Languages">
+        <h2 class="header-style">Languages</h2>
+        <ol class="list-style">
+          <li>Russian - native speaker</li>
+          <li>English - B2</li>
+        </ol>
+      </section>
+      <section id="Contacts">
+        <h2 class="header-style">Contacts</h2>
+        <ul class="list-style">
+          <li>Location: Minsk, Belarus</li>
+          <li>
+            Email: <a href="mailto:krylova4b@gmail.com">krylova4b@gmail.com</a>
+          </li>
+          <li>
+            Github:
+            <a href="https://github.com/AliakseyKashkevich"
+              >AliakseyKashkevich</a
+            >
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <ul class="footer-style">
+        <li>
+          <a href="https://github.com/AliakseyKashkevich">My Github</a>
+        </li>
+        <li>
+            <p>2026</p>
+        </li>
+        <li>
+          <a href="https://rs.school/courses/javascript">
+            <img src="images/rs-school-logo.svg" alt="RsSchool logo" width="100" height="100">
+          </a>
+        </li>
+      </ul>
+    </footer>
+  </body>
 </html>

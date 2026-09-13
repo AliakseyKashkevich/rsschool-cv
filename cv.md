@@ -1,4 +1,4 @@
-![avatar](avatar.png)
+![avatar](images/avatar.png)
 
 # Aliaksei Kashkevich
 
